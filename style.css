@@ -1,12 +1,140 @@
 *,
-*::after,
-*::before {
+::after,
+::before {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 body {
+    font-family: Outfit, sans-serif;
     background: #f3e6d8;
-    font-family: 'Young Serif', 'Outfit', sans-serif;
+    display: grid;
+    place-items: center;
+    line-height: 150%
+}
+
+h1,
+h2 {
+    font-family: 'Young Serif'
+}
+
+main {
+    max-width: 700px;
+    min-width: 300px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    margin: 52px 8px
+}
+
+main img {
+    width: 100%;
+    border-radius: 20px
+}
+
+main h1 {
+    color: #302d2c;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin: 24px 0 12px;
+    line-height: 150%
+}
+
+main p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #5f574e
+}
+
+main #purple {
+    background: #fff5fa;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin: 24px 0
+}
+
+main #purple h2 {
+    font-family: Outfit;
+    margin-left: -20px;
+    color: #7b284f;
+    font-size: 1.5rem
+}
+
+main #purple li {
+    color: #7b284f;
+    margin-left: 0
+}
+
+main #spaced {
+    padding: 24px 0;
+    border-bottom: 1px solid #5f574e33;
+    border-top: 1px solid #5f574e33;
+    margin: 24px 0
+}
+
+main section h2 {
+    color: #854632;
+    font-size: 1.75rem
+}
+
+main section ol,
+main section ul {
+    margin-top: 20px
+}
+
+main section li {
+    color: #854632;
+    margin: 10px 0 10px 20px;
+    padding-left: 20px;
+    font-weight: 600
+}
+
+main section li span {
+    color: #5f574e;
+    font-size: 1rem;
+    font-weight: 400
+}
+
+main section table {
+    width: 100%;
+    border-collapse: collapse
+}
+
+main section p {
+    margin: 12px 0
+}
+
+main section table tr {
+    border-bottom: 1px solid #5f574e33
+}
+
+main section table tr:last-child {
+    border-bottom: none
+}
+
+main section table th {
+    text-align: left;
+    font-weight: 400;
+    color: #5f574e;
+    padding: 10px 0
+}
+
+main section table td {
+    text-align: left;
+    font-weight: 600;
+    color: #854632;
+    padding: 10px 0
+}
+
+@media only screen and (max-width:800px) {
+    html {
+        font-size: 14px
+    }
+}
+
+@media only screen and (max-width:400px) {
+    html {
+        font-size: 12px
+    }
 }
