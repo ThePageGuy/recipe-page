@@ -24,7 +24,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [GitHub](https://github.com/ThePageGuy/recipe-page)
-- Live Site URL: [Demo]()
+- Live Site URL: [Demo](https://thepageguy.github.io/recipe-page/)
 
 ## My process
 
